@@ -22,8 +22,8 @@ Les pistes d'amélioration du projet sont dans `docs/AMELIORATIONS.md`.
 
 ```bash
 # Depuis GitHub (le plus simple) : les modèles ONNX sont dans le dépôt, rien d'autre à télécharger
-uv add "visage-id @ git+https://github.com/ESPI-TeamSTARRS/visage-id.git"       # adaptez l'URL au dépôt réel
-# ou :  pip install "git+https://github.com/ESPI-TeamSTARRS/visage-id.git"
+uv add "visage-id @ git+https://github.com/ESPI-TeamSTARRS/ML-Reco.git"
+# ou :  pip install "git+https://github.com/ESPI-TeamSTARRS/ML-Reco.git"
 ```
 
 Dépôt privé : le poste ou le build Docker doit avoir accès (jeton GitHub ou clé SSH). Python ≥ 3.12 (testé en 3.13, sur Windows).

@@ -11,7 +11,7 @@ Le package fait uniquement « ce visage est-il celui de cette personne ? ». Tou
 
 ```bash
 cd apps/backend/auth                           # le service concerné (voir §2)
-uv add "visage-id @ git+https://github.com/ESPI-TeamSTARRS/visage-id.git"      # adaptez l'URL au dépôt réel
+uv add "visage-id @ git+https://github.com/ESPI-TeamSTARRS/ML-Reco.git"
 ```
 
 Les deux modèles ONNX (~14 Mo) sont dans le dépôt : l'installation les apporte, aucun téléchargement ensuite.
